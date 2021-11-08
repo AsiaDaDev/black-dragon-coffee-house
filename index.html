@@ -9,17 +9,38 @@
     </head>
     <body>
         <!-- Navigation Bar - Includes logo and assets -->
-        <nav>
-            <img src="./assets/black-dragon-coffee-house-logo.png">
-            <a href="menu.html">Menu</a>
-            <a href="order.html">Order</a>
-            <a href="events.html">Events</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <header class="header">
+            <nav class="nav-bar">
+                <a href="index.html" class="nav-logo">
+                    <img src="./assets/black-dragon-coffee-house-big-logo.png">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="order.html" class="nav-link">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="events.html" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <img src="./assets/icon-menu.svg" class="menu-icon">
+            </nav>
+        </header>
         <main>
-            <h1>hot. bold. black</h1>
-            <button type="button">Order Online</button>
+            <section class="above-the-fold-section">
+                <h1 class="headline above-the-fold-headline">hot. bold. black</h1>
+                <button class="order-online-button" type="button">Order Online</button>
+            </section>
         </main>
+        <script src="./scripts.js">
+        </script>
     </body>
 </html>
